@@ -8,7 +8,7 @@ export default function Menu (){
   <div className="collapse navbar-collapse">
     <ul className="navbar-nav me-auto mb-2 mb-lg-0">
       <li className="nav-item">
-        <a className="nav-link active" href="#">
+        <a className="nav-link active" href="/">
           Home
         </a>
       </li>
@@ -23,12 +23,12 @@ export default function Menu (){
           href="#"
           data-bs-toggle="dropdown"
         >
-          Dropdown
+          Cadastros
         </a>
         <ul className="dropdown-menu">
           <li>
-            <a className="dropdown-item" href="#">
-              Action
+            <a className="dropdown-item" href="/categorias">
+              categorias
             </a>
           </li>
           <li>
@@ -38,16 +38,7 @@ export default function Menu (){
           </li>
         </ul>
       </li>
-      <li className="nav-item">
-        <a className="nav-link disabled">Disabled</a>
-      </li>
     </ul>
-    <form className="d-flex" role="search">
-      <input className="form-control me-2" type="search" placeholder="Search" />
-      <button className="btn btn-outline-light" type="submit">
-        Search
-      </button>
-    </form>
   </div>
 </nav>
   </>
